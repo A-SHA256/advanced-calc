@@ -51,7 +51,6 @@ public class Input {
                         dnum2 = scanner.nextDouble();
                         break;
                     }
-
                 }
             }
 
