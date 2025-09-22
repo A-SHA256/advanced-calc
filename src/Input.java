@@ -47,6 +47,7 @@ public class Input {
                             break;
                         }
                         inum2 = scanner.nextInt();
+                        break;
                     } else {
                         dnum2 = scanner.nextDouble();
                         break;
