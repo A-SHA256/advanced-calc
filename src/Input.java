@@ -40,8 +40,13 @@ public class Input {
                     scanner.next();
                 } else {
                     if (!isDouble) {
+                        if (scanner.hasNextDouble())
+                        {
+                            int undoubled = (int) scanner.nextDouble();
+                            inum2 = undoubled;
+                            break;
+                        }
                         inum2 = scanner.nextInt();
-                        break;
                     } else {
                         dnum2 = scanner.nextDouble();
                         break;
